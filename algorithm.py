@@ -19,7 +19,11 @@ class algorithm():
 							else:
 								if(column%2==1):
 										col.append(column)
+<<<<<<< HEAD
 						self.pegs[row]=col
+=======
+					self.pegs[row]=col
+>>>>>>> b0c8f8a... create board and find neighbors
 				return self.pegs
 		
 		def neighbors(self, peg):
