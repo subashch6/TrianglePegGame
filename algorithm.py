@@ -19,7 +19,7 @@ class algorithm():
 							else:
 								if(column%2==1):
 										col.append(column)
-					self.pegs[row]=col
+						self.pegs[row]=col
 				return self.pegs
 		
 		def neighbors(self, peg):
