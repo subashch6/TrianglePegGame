@@ -21,12 +21,12 @@ class algorithm():
 										col.append(column)
 
 						self.pegs[row]=col
-<<<<<<< HEAD
-=======
+
+
 
 						
 			        
->>>>>>> a9027bf9500c7d64efcae015fd4302ff1c576f69
+
 				return self.pegs
 		
 		def neighbors(self, peg):
